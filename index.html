@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="User Name's Portfolio of Work -- this is a class sample site">
+    <meta name="author" content="Matthew Getz's">
+
+    <title>Matthew Getz's Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        h2 {
+            color: rgba(140, 65, 0, 0.99);
+        }        
+        .top-buffer { 
+            margin-top: 30px; 
+        }   
+        .jumbotron h1 {
+            color: rgba(170, 110, 60, 0.99);
+        }
+        .jumbotron {
+            position: relative;
+            background: rgba(50, 50, 155, 0.1); 
+/*          background: rgba(36, 31, 155, 0.28) url("resources/ph600.png") center center;*/
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="jumbotron">
+    <div class="container">
+    <h1>Matthew Getz's Portfolio</h1>
+    <p>Welcome to my portfolio. I am currently a CIS major at Mansfield University of Pennsylania. I like to develop software, and I have set up this site to keep track of my projects.</p>
+    </div>
+    </div>
+
+    <!-- This container holds the rest of the content -->
+    <div class="container">
+        
+    <!-- First row of content -->
+    <div class="row">
+
+    <div class="col-md-6">
+    <h2>Resume</h2>
+    <p>Please check out my resume for more information on my skill sets. I am currently looking for job opportunities.</p>
+    <p><a class="btn btn-default" target="blank" href="resources/ResumeMatthewGetz.pdf" role="button">View Resume (pdf) &raquo;</a></p>
+    <p><a class="btn btn-default" target="blank" href="resources/ResumeMatthewGetz.docx" role="button">Download Resume (docx) &raquo;</a></p>
+    <p><a class="btn btn-default" target="blank" href="https://github.com/getzmc26/Portfolio" role="button">Visit Portfolio Repository (GitHub) &raquo;</a>
+    </p>
+    </div>
+    <div class="col-md-6">
+    <img class="img-responsive img-rounded" src="resources/ResumeMatthewGetz.png">
+    </div>  
+    </div> 
+    <!-- End of row 1 -->
+    <hr> 
+    <!-- Second row of content -->
+    <div class="row top-buffer">
+        
+    <div class="col-md-6">
+    <h2>Aerial Attack</h2>
+    <p>This HTML canvas side-scrolling game was written using vanilla JavaScript, AJAX, XML, PHP, and SQL. The user plays as a jet that avoids colliding with other jets.
+	The game implements a full collision system, health system, projectile system, and uses multiple threads to keep all of the action moving. If the user makes it within 
+	the current top ten high scores, then the database is updated accordingly with the score. I even created the art assets for the game, made the sound effects, and wrote the music!</p>
+	<br>
+    <img width="68%" class="img-responsive img-rounded" src="resources/AerialAttackGame.png"> 
+	<br>
+	<p><a class="btn btn-default" target="blank" href="https://github.com/getzmc26/aerialAttack" role="button">View details &raquo;</a></p>
+    </div>
+        
+    <div class="col-md-4">
+    <img class="img-responsive img-rounded" src="resources/AerialAttackGameOver.png"> 
+	<br>
+	<img class="img-responsive img-rounded" src="resources/AerialAttackHighScores.png">
+	<br>
+	<br>
+	<br>
+    </div>
+	</div>
+    <!-- End of row 2 -->
+    <hr> 
+    <!-- Third row of content -->
+    <div class="row top-buffer">   	
+    <div class="col-md-6">
+    <h2>Music Store Inventory Program</h2>
+    <p>This project shows CRUD and sort operations that could be used in order to keep an inventory at a store. The program is written in Java.</p>
+    <br>
+    <img width="68%" class="img-responsive img-rounded" src="resources/Project.gif"> 
+	<br>
+	<p><a class="btn btn-default" target="blank" href="https://github.com/getzmc26/cis1115project" role="button">View details &raquo;</a></p>
+    </div>
+  
+    <div class="col-md-6">
+    <img class="img-responsive img-rounded" src="resources/Music Store Inventory Program (CRUD--Sorts).png">
+    </div>
+    </div>
+    <!-- End of row 3 -->
+    <hr>            
+    <!-- Fourth row of content -->
+    <div class="row top-buffer">
+    <div class="col-md-6">
+    <h2>TuesdayNightBrewing Web Site</h2>
+    <p>This project was a final web site project for Advanced Web Site Design. The site is written using HTML, CSS, JavaScript, and XML.</p>
+    <br>
+    <img width="68%" class="img-responsive img-rounded" src="resources/WebSite2.png"> 
+	<br>    
+	<p><a class="btn btn-default" target="blank" href="https://github.com/getzmc26/tnbSite" role="button">View details &raquo;</a></p>
+    </div>
+        
+    <div class="col-md-6">
+    <img class="img-responsive img-rounded" src="resources/WebSite1.png">
+    </div>
+    </div>
+    <!-- End of row 4 -->
+	<hr>
+    <!-- Fifth row of content - this time in 2 columns without screenshots -->
+    <div class="row top-buffer">
+    <div class="col-md-6">
+    <h2>Other Application</h2>
+    <p>Under development...</p>
+    <p><a class="btn btn-default" target="blank" href="https://github.com/getzmc26/ChessConsole" role="button">View details &raquo;</a></p>
+    </div>
+        
+    <div class="col-md-6">
+    <h2>Other Project</h2>
+    <p>Under development...</p>
+    <p><a class="btn btn-default" target="blank" href="https://github.com/getzmc26/JavaFXBigData" role="button">View details &raquo;</a></p>
+    </div>        
+    </div>
+    <!-- End of row 5 -->
+                
+    <hr>
+        
+    <footer>
+    <p>This web page design is released to the public domain by Matthew Getz and you are free to use it as your own. It is built using the Bootstrap framework which has an MIT open source license. You may want to copyright your own variations to this web page by removing this message and adding your name to the following: &copy; 2017 Matthew Getz</p>
+    </footer>
+        
+    </div>
+    <!-- End of main content container -->
+      
+    <!-- Put the Javascript at the bottom -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
